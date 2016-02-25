@@ -359,6 +359,12 @@ body {
     font-weight: bolder;
     font-size: 35px;
 }
+.section-heading-light {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 35px;
+}
 
 #art {
     /*background-image: url('../img/splash.png');*/
@@ -387,7 +393,7 @@ body {
     text-align: center;
 }
 
-#fourth-section {
+#third-section {
     background-color: #ffffff;
 }
 
@@ -417,6 +423,15 @@ body {
     display: inline-block;
     vertical-align: 10%;
 }
+
+.sect-heading-desc {
+    font-size: 20px;
+    margin-bottom: 80px;
+    color: #fff;
+    color: rgba(255, 255, 255, 0.8);
+
+}
+
 
 .products-catalog {
     /*margin-top: 50px;*/
@@ -457,4 +472,159 @@ body {
 
 #grid{
     padding:0 20px 0px 20px !important;
+}
+
+.feature-icon {
+    font-size: 30px;
+}
+
+.feature-desc {
+    /*text-justify: distribute;*/
+    text-align: center;
+    font-size: 40px;
+}
+
+.feature-icon i {
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    color: #Ef3B39;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    padding: 6px 2px 2px 2px;
+}
+
+.feature-icon i:hover {
+    background: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: all 0.5s ease;
+    border: 4px solid #Ef3B39;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 10px;
+    color: #fff;
+    /*font-weight: bold;*/
+    text-transform: uppercase;
+    font-weight: bold;
+    /*font-size: 20px;*/
+    transition: all 0.5s ease;
+    outline: none;
+}
+
+.feature-head {
+    color: #fff;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.feature-desc {
+    color: #fff;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    padding: 5px;
+    transition: all 0.5s ease;
+}
+
+.feature-desc:hover {
+    color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*CSS for contact Section*/
+
+#contact-form {
+    text-align: left;
+}
+
+#seventh .wrapper > div:first-child {
+    margin-bottom: 40px;
+}
+
+#contact-form input {
+    margin-bottom: 15px;
+}
+
+.btn-submit {
+    color: #ffffff;
+    border-color: #ffffff;
+    background-image: none;
+    background: transparent;
+    transition: all 500ms;
+}
+
+.btn-submit:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+
+.btn-submit:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+
+.form-control {
+    border-color: #ffffff;
+!important;
+    box-shadow: 0 0 8px rgba(155, 89, 182, 0.2);
+    outline: 0 none;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.form-control:focus {
+
+    color: #000;
+}
+
+.inner-txt-visibe {
+
+}
+
+.form-control:hover {
+    border-color: rgba(239, 59, 57, 1);
+!important;
+    box-shadow: 0 0 10px rgba(239, 59, 57, 1);
+    outline: 0 none;
+    /*background-color: #ffffff;*/
+}
+
+.form-control:focus {
+    border-color: rgba(239, 59, 57, 1);
+!important;
+    box-shadow: 0 0 10px rgba(239, 59, 57, 1);
+    outline: 0 none;
+    background-color: #ffffff;
+}
+
+.error {
+    color: #BF55EC;
+}
+
+.contact {
+
+    font-family: 'Exo', sans-serif;
+}
+
+.contact h4 {
+    font-family: 'Exo', sans-serif;
+}
+
+.contact p {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.icon-contact {
+    color: #ef3b39;
+    opacity: 0.7;
+    margin-right: 10px;
+}
+.empty-icon{
+    color: transparent !important;
+    /*visibility: hidden !important;*/
+    /*display: none;*/
 }

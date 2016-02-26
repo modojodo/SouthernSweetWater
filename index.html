@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title></title>
+    <title>Southern Sweetwater</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -15,15 +15,41 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Allura' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     <!--<script src="js/vendor/jquery.shuffle.modernizr.min.js"></script>-->
 </head>
 <body>
+<nav class="navbar navbar-initial navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a id="brand" class="navbar-brand" href="#">Southern Sweetwater</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right" id="menu">
+                <li data-menuanchor="home-page"><a class="menu-item" href="#home-page">home</a></li>
+                <li data-menuanchor="products-page"><a class="menu-item" href="#products-page">products</a></li>
+                <li data-menuanchor="about-page"><a class="menu-item" href="#about-page">about us</a></li>
+                <li data-menuanchor="contact-page"><a class="menu-item" href="#contact-page">contact us</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
 <div id="layer"></div>
 <div id="fullpage">
-    <div class="section" id="first-section">
+    <div class="section" id="first-section" data-anchor="home-page">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-6 col-lg-offset-3">
@@ -36,12 +62,13 @@
             </div>
         </div>
     </div>
-    <div class="section" id="second-section">
+    <div class="section" id="second-section" data-anchor="message-page">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xs-12" id="sub-sections">
                     <div class="row" id="first-half">
-                        <div class="col-lg-5 col-lg-offset-2" id="message">
+                        <div class="col-lg-5 col-lg-offset-2 col-md-5 col-md-offset-2 col-sm-5 col-sm-offset-2"
+                             id="message">
                             <h2 class="section-heading">Our Message</h2>
                             <p class="heading-desc">because we care</p>
                             <blockquote><p class="message-quote">
@@ -67,7 +94,7 @@
             </div>
         </div>
     </div>
-    <div class="section" id="third-section">
+    <div class="section" id="third-section" data-anchor="products-page">
         <div class="container-fluid">
             <div class="row">
                 <h2 class="section-heading">Our Products</h2>
@@ -91,108 +118,108 @@
             </div>
 
             <div id="grid" class="row products-catalog">
-                <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6 product-img" data-groups='["all","raspberry"]'>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 product-img" data-groups='["all","raspberry"]'>
                     <img
                             src="img/products/sweetwater/SW-Bottle-Blue-Raspberry.png" alt=""
                             class="img-responsive product-bottle center-block">
                     <div class="product-shadow"><img src="img/shadow4.png" class="img-responsive center-block" alt="">
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6 product-img" data-groups='["all","fruit-punch"]'><img
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 product-img" data-groups='["all","fruit-punch"]'><img
                         src="img/products/sweetwater/SW-Bottle-Fruit-Punch.png" alt=""
                         class="img-responsive product-bottle center-block">
                     <div class="product-shadow"><img src="img/shadow4.png" class="img-responsive center-block" alt="">
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6 product-img" data-groups='["all","grape"]'><img
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 product-img" data-groups='["all","grape"]'><img
                         src="img/products/sweetwater/SW-Bottle-Grape.png" alt=""
                         class="img-responsive product-bottle center-block">
                     <div class="product-shadow"><img src="img/shadow4.png" class="img-responsive center-block" alt="">
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6 product-img" data-groups='["all","strawberry"]'><img
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 product-img" data-groups='["all","strawberry"]'><img
                         src="img/products/sweetwater/SW-Bottle-Kiwi-Strawberry.png"
                         alt=""
                         class="img-responsive product-bottle center-block">
                     <div class="product-shadow"><img src="img/shadow4.png" class="img-responsive center-block" alt="">
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6 product-img" data-groups='["all","mango"]'>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 product-img" data-groups='["all","mango"]'>
                     <img src="img/products/sweetwater/SW-Bottle-Mango.png"
                          alt=""
                          class="img-responsive product-bottle center-block">
                     <div class="product-shadow"><img src="img/shadow4.png" class="img-responsive center-block" alt="">
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6 product-img" data-groups='["all","pineapple"]'><img
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 product-img" data-groups='["all","pineapple"]'><img
                         src="img/products/sweetwater/SW-Bottle-Pineapple.png" alt=""
                         class="img-responsive product-bottle center-block">
                     <div class="product-shadow"><img src="img/shadow4.png" class="img-responsive center-block" alt="">
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6 product-img" data-groups='["all",""]'><img
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 product-img" data-groups='["all",""]'><img
                         src="img/products/sweetwater/SW-Bottle-Strawberry.png" alt="strawberry"
                         class="img-responsive product-bottle center-block">
                     <div class="product-shadow"><img src="img/shadow4.png" class="img-responsive center-block" alt="">
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6 product-img" data-groups='["all","watermelon"]'><img
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 product-img" data-groups='["all","watermelon"]'><img
                         src="img/products/sweetwater/SW-Bottle-Watermelon.png" alt=""
                         class="img-responsive product-bottle center-block">
                     <div class="product-shadow"><img src="img/shadow4.png" class="img-responsive center-block" alt="">
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6 product-img" data-groups='["all","bubble-gum"]'>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 product-img" data-groups='["all","bubble-gum"]'>
                     <img src="img/products/sweeties/Bubble-Gum-Blast.png"
                          alt=""
                          class="img-responsive product-bottle center-block">
                     <div class="product-shadow"><img src="img/shadow4.png" class="img-responsive center-block" alt="">
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6 product-img" data-groups='["all","fruit-punch"]'><img
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 product-img" data-groups='["all","fruit-punch"]'><img
                         src="img/products/sweeties/Fruit-Punch-Fandango.png" alt=""
                         class="img-responsive product-bottle center-block">
                     <div class="product-shadow"><img src="img/shadow4.png" class="img-responsive center-block" alt="">
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6 product-img" data-groups='["all","grape"]'><img
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 product-img" data-groups='["all","grape"]'><img
                         src="img/products/sweeties/Giggle-Grape.png" alt=""
                         class="img-responsive product-bottle center-block">
                     <div class="product-shadow"><img src="img/shadow4.png" class="img-responsive center-block" alt="">
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6 product-img" data-groups='["all","grape"]'><img
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 product-img" data-groups='["all","grape"]'><img
                         src="img/products/sweeties/Kooky-Kiwi-Grape-sm.png" alt=""
                         class="img-responsive product-bottle center-block">
                     <div class="product-shadow"><img src="img/shadow4.png" class="img-responsive center-block" alt="">
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6 product-img" data-groups='["all","lemonade"]'>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 product-img" data-groups='["all","lemonade"]'>
                     <img src="img/products/sweeties/Lucky-Lemonade.png"
                          alt=""
                          class="img-responsive product-bottle center-block">
                     <div class="product-shadow"><img src="img/shadow4.png" class="img-responsive center-block" alt="">
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6 product-img" data-groups='["all","cherry"]'><img
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 product-img" data-groups='["all","cherry"]'><img
                         src="img/products/sweeties/Merry-Cherry.png" alt=""
                         class="img-responsive product-bottle center-block">
                     <div class="product-shadow"><img src="img/shadow4.png" class="img-responsive center-block" alt="">
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6 product-img" data-groups='["all","orange"]'><img
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 product-img" data-groups='["all","orange"]'><img
                         src="img/products/sweeties/Outrageous-Orange.png" alt=""
                         class="img-responsive product-bottle center-block">
                     <div class="product-shadow"><img src="img/shadow4.png" class="img-responsive center-block" alt="">
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6 product-img" data-groups='["all","raspberry"]'><img
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 product-img" data-groups='["all","raspberry"]'><img
                         src="img/products/sweeties/Peek-A-Blue-Raspberry.png" alt=""
                         class="img-responsive product-bottle center-block">
                     <div class="product-shadow"><img src="img/shadow4.png" class="img-responsive center-block" alt="">
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6 product-img" data-groups='["all","watermelon","peach"]'>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 product-img" data-groups='["all","watermelon","peach"]'>
                     <img
                             src="img/products/sweeties/Persnickety-Peach-Watermelon.png"
                             alt=""
@@ -200,7 +227,7 @@
                     <div class="product-shadow"><img src="img/shadow4.png" class="img-responsive center-block" alt="">
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6 product-img" data-groups='["all","lemonade"]'><img
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 product-img" data-groups='["all","lemonade"]'><img
                         src="img/products/sweeties/Precious-Pink-Lemonade.png" alt=""
                         class="img-responsive product-bottle center-block">
                     <div class="product-shadow"><img src="img/shadow4.png" class="img-responsive center-block" alt="">
@@ -209,7 +236,7 @@
             </div>
         </div>
     </div>
-    <dv class="section" data-anchor="about-page">
+    <dv class="section" id="fourth-section" data-anchor="about-page">
         <div class="container-fluid">
             <div class="col-xs-12">
                 <div class="row section-head">
@@ -236,7 +263,7 @@
                     </div>
 
                     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                        <div class="feature-icon"><i class="fa fa-bolt"></i></div>
+                        <div class="feature-icon"><i class="fa fa-lightbulb-o"></i></div>
                         <h3 class="feature-head">Why Choose Southern Sweetwater?</h3>
                         <p class="feature-desc">Our product is exceptional. Priced right, and priced to sell, our
                             products, including our fruit drinks, are proven sellers. They have become some of the most
@@ -261,7 +288,7 @@
     <div class="section" data-anchor="contact-page">
         <div class="container-fluid">
             <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 header">
-                <h2 class="section-heading-light">Contact US</h2>
+                <h2 class="section-heading-light">Contact <span class="highlight">Us</span></h2>
 
                 <p class="sect-heading-desc">Do not hesitate to drop us a couple of lines. Leave us a message. </p>
             </div>
@@ -306,7 +333,7 @@
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <div class="row contact">
                                 <div class="col-lg-12">
-                                    <div class="col-lg-8">
+                                    <div class="col-lg-8 contact-info">
                                         <h4><a class="nostyle" href="mailto: info@speedzoneenergy.com"><i
                                                 class="fa fa-envelope icon-contact"></i>info <span
                                                 class="highlight">@speedzoneenergy.com</span></a>

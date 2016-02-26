@@ -293,7 +293,7 @@ body {
 }
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;;
+    font-family: 'Raleway', sans-serif;
 }
 
 #layer {
@@ -319,19 +319,17 @@ body {
 }
 
 .welcome-desc {
+    margin-top: 20px;
     color: #FDFCFA;
     text-transform: capitalize;
-    /*color: rgba(252, 253, 252, 0.6);*/
     font-size: 18px;
 }
 
-#second-section .fp-tableCell {
-    /*vertical-align: top !important;*/
+.section {
+    text-align: center;
+    /*padding-top:40px;*/
 }
 
-/*#second-section .fp-tableCell .container-fluid, #second-section .fp-tableCell .container-fluid > .row, #second-section .fp-tableCell .container-fluid > .row >#sub-sections {*/
-/*height: inherit;*/
-/*}*/
 #second-section .container-fluid {
     padding: 0;
 }
@@ -340,25 +338,13 @@ body {
     background-color: #ffffff;
 }
 
-/*#second-section #first-half {*/
-/*height: 50%;*/
-/*min-height:250px;*/
-/*background-color: #FFFFFF;*/
-/*}*/
-/*#second-section #first-half > div{*/
-/*height: inherit;*/
-/*}*/
-/*#second-section #second-half {*/
-/*height: 50%;*/
-/*min-height:250px;*/
-/*!*background-color: #FFFFFF;*!*/
-/*}*/
 .section-heading {
     color: #252525;
     text-transform: uppercase;
     font-weight: bolder;
     font-size: 35px;
 }
+
 .section-heading-light {
     color: #ffffff;
     text-transform: uppercase;
@@ -367,10 +353,7 @@ body {
 }
 
 #art {
-    /*background-image: url('../img/splash.png');*/
-    /*background-repeat: no-repeat;*/
     text-align: right;
-    /*position: relative;*/
     bottom: 0;
     z-index: 20;
     height: 100%;
@@ -429,14 +412,15 @@ body {
     margin-bottom: 80px;
     color: #fff;
     color: rgba(255, 255, 255, 0.8);
+    font-family: 'Dosis', sans-serif;
 
 }
-
 
 .products-catalog {
     /*margin-top: 50px;*/
 }
-.product-img{
+
+.product-img {
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -470,35 +454,40 @@ body {
     text-align: center;
 }
 
-#grid{
-    padding:0 20px 0px 20px !important;
+#grid {
+    margin-top: 40px;
+}
+
+.filter-options {
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+    #grid {
+        margin-right: 200px !important;
+        margin-left: 200px !important;
+    }
 }
 
 .feature-icon {
     font-size: 30px;
 }
 
-.feature-desc {
-    /*text-justify: distribute;*/
-    text-align: center;
-    font-size: 40px;
-}
-
 .feature-icon i {
     width: 50px;
     height: 50px;
     background: transparent;
-    color: #Ef3B39;
+    color: #8CD790;
     border: 4px solid #fff;
     border-radius: 50%;
     padding: 6px 2px 2px 2px;
 }
 
 .feature-icon i:hover {
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.2);
     cursor: pointer;
     transition: all 0.5s ease;
-    border: 4px solid #Ef3B39;
+    border: 4px solid #8CD790;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 10px;
@@ -585,17 +574,17 @@ body {
 }
 
 .form-control:hover {
-    border-color: rgba(239, 59, 57, 1);
+    border-color: #8CD790;
 !important;
-    box-shadow: 0 0 10px rgba(239, 59, 57, 1);
+    box-shadow: 0 0 10px #8CD790;
     outline: 0 none;
     /*background-color: #ffffff;*/
 }
 
 .form-control:focus {
-    border-color: rgba(239, 59, 57, 1);
+    border-color: #8CD790;
 !important;
-    box-shadow: 0 0 10px rgba(239, 59, 57, 1);
+    box-shadow: 0 0 10px #8CD790;
     outline: 0 none;
     background-color: #ffffff;
 }
@@ -605,26 +594,170 @@ body {
 }
 
 .contact {
-
-    font-family: 'Exo', sans-serif;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
 }
 
 .contact h4 {
-    font-family: 'Exo', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 .contact p {
     font-size: 14px;
     opacity: 0.8;
+    color: #ffffff;
 }
 
 .icon-contact {
-    color: #ef3b39;
+    color: #8CD790;
     opacity: 0.7;
     margin-right: 10px;
 }
-.empty-icon{
+
+.empty-icon {
     color: transparent !important;
-    /*visibility: hidden !important;*/
-    /*display: none;*/
+}
+
+.contact-info {
+    color: #fff;
+}
+
+.highlight {
+    color: #8CD790;
+}
+
+/* ----===============Navvbar Styling==================-----*/
+
+/*-----custom navbar styling------*/
+#brand {
+    font-weight: bolder;
+    /*font-family: 'Allura', cursive;*/
+    font-family: 'Poiret One', cursive;
+    letter-spacing: 8px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-left: 30px;
+    font-size: 30px;
+}
+@media screen and (min-width: 1220px) {
+    #brand {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .nav {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+.nav > li a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    border-bottom: 2px solid #8CD790;
+    transition: 0.4s;
+}
+
+.nav > li a:hover:after {
+    width: 100%;
+}
+
+.nav {
+    margin-right: 30px;
+}
+
+.nav > li {
+    text-transform: uppercase;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+/*-----generated navbar styling-----*/
+.navbar-default {
+    background-color: rgba(5,0,0,0.2);
+    border-color: rgba(5,0,0,0.2);
+}
+
+.navbar-default .navbar-brand {
+    color: #f8f8f8;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #8cd790;
+}
+
+.navbar-default .navbar-text {
+    color: #f8f8f8;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #f8f8f8;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #8cd790;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #8cd790;
+    background-color: rgba(5,0,0,0.2);
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #8cd790;
+    background-color: rgba(5,0,0,0.2);
+}
+
+.navbar-default .navbar-toggle {
+    border-color: rgba(5,0,0,0.2);
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: rgba(5,0,0,0.2);
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #f8f8f8;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: #f8f8f8;
+}
+
+.navbar-default .navbar-link {
+    color: #f8f8f8;
+}
+
+.navbar-default .navbar-link:hover {
+    color: #8cd790;
+}
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #f8f8f8;
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #8cd790;
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #8cd790;
+        background-color: rgba(5,0,0,0.2);
+    }
 }

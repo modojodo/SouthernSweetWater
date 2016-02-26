@@ -310,11 +310,17 @@ body {
     text-align: center;
 }
 
+.welcome-img {
+    max-width: 120px;
+    max-height: 120px;
+    color: #fff;
+}
+
 .welcome-heading {
 
     color: #FCFDFC;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 45px;
     text-transform: uppercase;
 }
 
@@ -631,15 +637,15 @@ body {
 /*-----custom navbar styling------*/
 #brand {
     font-weight: bolder;
-    /*font-family: 'Allura', cursive;*/
     font-family: 'Poiret One', cursive;
     letter-spacing: 8px;
     line-height: 30px;
     text-transform: uppercase;
     color: #fff;
     margin-left: 30px;
-    font-size: 30px;
+    font-size: 20px;
 }
+
 @media screen and (min-width: 1220px) {
     #brand {
         margin-top: 15px;
@@ -651,6 +657,7 @@ body {
         padding-bottom: 15px;
     }
 }
+
 .nav > li a:after {
     content: '';
     position: absolute;
@@ -671,15 +678,15 @@ body {
 
 .nav > li {
     text-transform: uppercase;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
 
 }
 
 /*-----generated navbar styling-----*/
 .navbar-default {
-    background-color: rgba(5,0,0,0.2);
-    border-color: rgba(5,0,0,0.2);
+    background-color: rgba(5, 0, 0, 0.2);
+    border-color: rgba(5, 0, 0, 0.2);
 }
 
 .navbar-default .navbar-brand {
@@ -708,23 +715,23 @@ body {
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
     color: #8cd790;
-    background-color: rgba(5,0,0,0.2);
+    background-color: rgba(5, 0, 0, 0.2);
 }
 
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
     color: #8cd790;
-    background-color: rgba(5,0,0,0.2);
+    background-color: rgba(5, 0, 0, 0.2);
 }
 
 .navbar-default .navbar-toggle {
-    border-color: rgba(5,0,0,0.2);
+    border-color: rgba(5, 0, 0, 0.2);
 }
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: rgba(5,0,0,0.2);
+    background-color: rgba(5, 0, 0, 0.2);
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -758,6 +765,6 @@ body {
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
         color: #8cd790;
-        background-color: rgba(5,0,0,0.2);
+        background-color: rgba(5, 0, 0, 0.2);
     }
 }

@@ -311,8 +311,8 @@ body {
 }
 
 .welcome-img {
-    max-width: 120px;
-    max-height: 120px;
+    max-width: 80px;
+    max-height: 80px;
     color: #fff;
 }
 
@@ -383,7 +383,9 @@ body {
 }
 
 #third-section {
-    background-color: #ffffff;
+    background-color: #8CD790;
+    background-color: rgba(140,215,144,0.8);
+
 }
 
 .heading-desc {

@@ -4,11 +4,12 @@ $(function () {
         scrollOverflow: true
     });
     $.backstretch('img/girl-flag.jpg');
+    $('')
     $('.product-img>.product-bottle').hover(function () {
 //            alert($(this).parent('.product-img').find('.product-shadow').html())
-        $(this).parent('.product-img').find('.product-shadow>img').attr('src', 'img/shadow3.png');
+        $(this).parent('.product-img').find('.product-shadow>img').attr('src', 'img/shadow_dark.png');
     }, function () {
-        $(this).parent('.product-img').find('.product-shadow>img').attr('src', 'img/shadow4.png');
+        $(this).parent('.product-img').find('.product-shadow>img').attr('src', 'img/shadow_light.png');
     });
     //var $grid = $('#grid')
     shuffleme.init();

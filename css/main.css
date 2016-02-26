@@ -517,7 +517,7 @@ body {
 .feature-desc {
     color: #fff;
     color: rgba(255, 255, 255, 0.8);
-    font-size: 18px;
+    font-size: 15px;
     padding: 5px;
     transition: all 0.5s ease;
 }
@@ -527,7 +527,7 @@ body {
     cursor: pointer;
     border-radius: 2px;
     color: rgba(255, 255, 255, 0.8);
-    font-size: 18px;
+    font-size: 15px;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -650,13 +650,13 @@ body {
 
 @media screen and (min-width: 1220px) {
     #brand {
-        margin-top: 15px;
-        margin-bottom: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     .nav {
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 }
 
